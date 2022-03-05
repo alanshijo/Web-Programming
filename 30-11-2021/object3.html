@@ -1,0 +1,15 @@
+<html>
+    <body>
+        <p id="p"></p>
+    <script type="text/javascript" language="javascript">
+        function person(first, last, age, color){
+            this.fName = first;
+            this.lName = last;
+            this.oldage = age;
+            this.eyecolor = color;
+        };
+        var myDetail = new Object("Alan","Shijo","21","Black");
+        document.getElementById("p").innerHTML = myDetail.fName + " " + myDetail.lName;
+    </script>
+    </body>
+</html>

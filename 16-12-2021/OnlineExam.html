@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <script>
+            function exam()
+            {
+                var i=0;
+                if(document.getElementById('m2').checked == true)
+                {
+                    i=i+1;
+                }
+                alert("Your score is:" + i"/2")
+            }
+        </script>
+    </head>
+    <body>
+        <center><h1><u>QUIZ</u></h1></center>
+        <ol type="1">
+            <li>Who is Mohanlal?
+                <br><input type="radio" id="m1" value="Carpenter">Carpenter
+                &emsp;<input type="radio" id="m2" value="Actor">Actor
+            </li>
+            <!--li>Which of the following is not a fruit?
+                <br><input type="radio" id="m1" value="Carrot">Carrot
+                &emsp;<input type="radio" id="m2" value="Mango">Mango
+
+            </li-->
+        </ol>
+        <input type="submit" onclick="exam()">
+    </body>
+</html>

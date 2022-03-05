@@ -1,0 +1,14 @@
+*{
+	font-family: sans-serif;
+	color: white;
+}
+h3{
+	text-decoration: underline;
+	text-transform: uppercase;
+}
+body{
+	background-color: red;
+	margin-left: 40px;
+	margin-top: 30px;
+	font-size: 18px;
+}
